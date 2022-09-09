@@ -1,0 +1,48 @@
+{
+  "name": "alternative-to-es7-react-js-snippets-2022",
+  "displayName": "React/Redux/GraphQL/React-Native snippets 2022",
+  "description": "Extensions for React, Redux and Graphql in JS/TS",
+  "version": "1.0.0",
+  "publisher": "JorgeAssaf",
+  "icon": "images/React.png",
+  "keywords": [
+    "snippets",
+    "react",
+    "javascript",
+    "typescript",
+    "redux",
+    "graphql",
+    "react-native"
+  ],
+  "engines": {
+    "vscode": "^1.70.1"
+  },
+  "license": "SEE LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JorgeAssaf/Alternative-to-es7-reactjs-snippets-2022"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
