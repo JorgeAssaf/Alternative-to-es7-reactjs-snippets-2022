@@ -35,7 +35,7 @@
     "prefix": "enf",
     "body": [
       "export const ${1:functionName} = (${2:params}) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -45,7 +45,7 @@
     "prefix": "edf",
     "body": [
       "export default (${1:params}) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -254,29 +254,29 @@
       ""
     ]
   },
-  "import React, { Component }": {
+  "import { Component }": {
     "prefix": "imrc",
     "body": [
-      "import React, { Component } from 'react'",
+      "import { Component } from 'react'",
       ""
     ]
   },
-  "import React, { Component } & PropTypes": {
+  "import { Component } & PropTypes": {
     "prefix": "imrcp",
     "body": [
-      "import React, { Component } from 'react'",
+      "import { Component } from 'react'",
       "import PropTypes from 'prop-types'",
       ""
     ]
   },
-  "import React, { PureComponent }": {
+  "import { PureComponent }": {
     "prefix": "imrpc",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import { PureComponent } from 'react'",
       ""
     ]
   },
-  "import React, { PureComponent } & PropTypes": {
+  "import { PureComponent } & PropTypes": {
     "prefix": "imrpcp",
     "body": [
       "import React, { PureComponent } from 'react'",
@@ -284,17 +284,17 @@
       ""
     ]
   },
-  "import React, { memo }": {
+  "import { memo }": {
     "prefix": "imrm",
     "body": [
-      "import React, { memo } from 'react'",
+      " { memo } from 'react'",
       ""
     ]
   },
-  "import React, { memo } & PropTypes": {
+  "import { memo } & PropTypes": {
     "prefix": "imrmp",
     "body": [
-      "import React, { memo } from 'react'",
+      "import { memo } from 'react'",
       "import PropTypes from 'prop-types'",
       ""
     ]
@@ -316,13 +316,13 @@
   "reactClassCompoment": {
     "prefix": "rcc",
     "body": [
-      "import React, { Component } from 'react'",
+      "import { Component } from 'react'",
       "",
       "export default class ${1:${TM_FILENAME_BASE}} extends Component {",
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -334,13 +334,13 @@
   "reactClassExportComponent": {
     "prefix": "rce",
     "body": [
-      "import React, { Component } from 'react'",
+      "import { Component } from 'react'",
       "",
       "export class ${1:${TM_FILENAME_BASE}} extends Component {",
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -358,7 +358,7 @@
       "function ${1:${TM_FILENAME_BASE}}() {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}",
@@ -375,7 +375,7 @@
       "export default function ${1:${TM_FILENAME_BASE}}() {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}",
@@ -391,7 +391,7 @@
       "function ${1:${TM_FILENAME_BASE}}(props) {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}",
@@ -413,7 +413,7 @@
       "const ${1:${TM_FILENAME_BASE}} = () => {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}",
@@ -430,7 +430,7 @@
       "const ${1:${TM_FILENAME_BASE}} = () => {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}",
@@ -448,7 +448,7 @@
       "const ${1:${TM_FILENAME_BASE}} = props => {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}",
@@ -476,7 +476,7 @@
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -496,7 +496,7 @@
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -508,13 +508,13 @@
   "reactClassExportPureComponent": {
     "prefix": "rpce",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import { PureComponent } from 'react'",
       "",
       "export class ${1:${TM_FILENAME_BASE}} extends PureComponent {",
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -528,7 +528,7 @@
   "reactClassPureComponentWithPropTypes": {
     "prefix": "rpcp",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import { PureComponent } from 'react'",
       "import PropTypes from 'prop-types'",
       "",
       "export default class ${1:${TM_FILENAME_BASE}} extends PureComponent {",
@@ -539,7 +539,7 @@
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -551,12 +551,12 @@
   "reactFunctionMemoComponent": {
     "prefix": "rmc",
     "body": [
-      "import React, { memo } from 'react'",
+      "import { memo } from 'react'",
       "",
       "export default memo(function ${1:${TM_FILENAME_BASE}}() {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "})",
@@ -567,13 +567,13 @@
   "reactFunctionMemoComponentWithPropTypes": {
     "prefix": "rmcp",
     "body": [
-      "import React, { memo } from 'react'",
+      "import { memo } from 'react'",
       "import PropTypes from 'prop-types'",
       "",
       "const ${1:${TM_FILENAME_BASE}} = memo(function ${1:${TM_FILENAME_BASE}}(props) {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "})",
@@ -590,7 +590,7 @@
   "reactClassCompomentPropTypes": {
     "prefix": "rccp",
     "body": [
-      "import React, { Component } from 'react'",
+      "import { Component } from 'react'",
       "import PropTypes from 'prop-types'",
       "",
       "export default class ${1:${TM_FILENAME_BASE}} extends Component {",
@@ -601,7 +601,7 @@
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -613,7 +613,7 @@
   "reactClassCompomentRedux": {
     "prefix": "rcredux",
     "body": [
-      "import React, { Component } from 'react'",
+      "import { Component } from 'react'",
       "import PropTypes from 'prop-types'",
       "import { connect } from 'react-redux'",
       "",
@@ -625,7 +625,7 @@
       "  render() {",
       "    return (",
       "      <div>",
-      "        $0",
+      "        ${1:first}",
       "      </div>",
       "    )",
       "  }",
@@ -664,7 +664,7 @@
       "  super(props)",
       "",
       "  this.state = {",
-      "     $0",
+      "     ${1:first}",
       "  }",
       "}",
       ""
@@ -685,7 +685,7 @@
     "prefix": "cwm",
     "body": [
       "componentWillMount = () => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -695,7 +695,7 @@
     "prefix": "cdm",
     "body": [
       "componentDidMount = () => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -705,7 +705,7 @@
     "prefix": "cwr",
     "body": [
       "componentWillReceiveProps = (nextProps) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -715,7 +715,7 @@
     "prefix": "scu",
     "body": [
       "shouldComponentUpdate = (nextProps, nextState) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -725,7 +725,7 @@
     "prefix": "cwup",
     "body": [
       "componentWillUpdate = (nextProps, nextState) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -735,7 +735,7 @@
     "prefix": "cdup",
     "body": [
       "componentDidUpdate = (prevProps, prevState) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -745,7 +745,7 @@
     "prefix": "cwun",
     "body": [
       "componentWillUnmount = () => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -764,7 +764,7 @@
     "prefix": "gsbu",
     "body": [
       "getSnapshotBeforeUpdate = (prevProps, prevState) => {",
-      "  $0",
+      "  ${1:first}",
       "}",
       ""
     ],
@@ -776,7 +776,7 @@
       "render() {",
       "  return (",
       "    <div>",
-      "      $0",
+      "      ${1:first}",
       "    </div>",
       "  )",
       "}"
@@ -1125,7 +1125,7 @@
     "prefix": "ptet",
     "body": [
       "PropTypes.oneOfType([",
-      "  $0",
+      "  ${1:first}",
       "]),"
     ],
     "description": "An object that could be one of many types"
@@ -1134,7 +1134,7 @@
     "prefix": "ptetr",
     "body": [
       "PropTypes.oneOfType([",
-      "  $0",
+      "  ${1:first}",
       "]).isRequired,"
     ],
     "description": "An object that could be one of many types required"
@@ -1156,14 +1156,14 @@
   },
   "propTypeObjectOfRequired": {
     "prefix": "ptoor",
-    "body": "PropTypes.objectOf($0).isRequired,",
+    "body": "PropTypes.objectOf(${1:first}).isRequired,",
     "description": "An object with property values of a certain type required"
   },
   "propTypeShape": {
     "prefix": "ptsh",
     "body": [
       "PropTypes.shape({",
-      "  $0",
+      "  ${1:first}",
       "}),"
     ],
     "description": "An object taking on a particular shape"
@@ -1172,7 +1172,7 @@
     "prefix": "ptshr",
     "body": [
       "PropTypes.shape({",
-      "  $0",
+      "  ${1:first}",
       "}).isRequired,"
     ],
     "description": "An object taking on a particular shape required"
@@ -1181,7 +1181,7 @@
     "prefix": "ptypes",
     "body": [
       "static propTypes = {",
-      "$0",
+      "${1:first}",
       "}",
       ""
     ]
@@ -1205,7 +1205,7 @@
     "prefix": "desc",
     "body": [
       "describe('$1', () => {",
-      "  $0",
+      "  ${1:first}",
       "})",
       ""
     ],
@@ -1215,7 +1215,7 @@
     "prefix": "test",
     "body": [
       "test('should $1', () => {",
-      "  $0",
+      "  ${1:first}",
       "})",
       ""
     ],
@@ -1225,7 +1225,7 @@
     "prefix": "tit",
     "body": [
       "it('should $1', () => {",
-      "  $0",
+      "  ${1:first}",
       "})",
       ""
     ],

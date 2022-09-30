@@ -1,14 +1,13 @@
-# 2022 VS Code ES7 React/Redux/React-Native/JS snippets
+# 2022 VS Code ES7 React/Redux/React-Native/JS Snippets
 
-<!---
-[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/dsznajder.es7-react-js-snippets.svg)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/dsznajder.es7-react-js-snippets.svg)
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/version-short/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/installs/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
+[![Downloads ](https://vsmarketplacebadge.apphb.com/downloads/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/downloads/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
+[![Rating  ](https://vsmarketplacebadge.apphb.com/rating-star/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/rating-star/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
 
 This extension provides you JavaScript and React/Redux snippets in ES7 with Babel plugin features for [VS Code](https://code.visualstudio.com/)
 
-Here is direct link to marketplace [React/Redux/React-Native/JS Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
--->
+Here is direct link to marketplace [React/Redux/React-Native/JS Snippets 2022](https://marketplace.visualstudio.com/items?itemName=JorgeAssaf.alternative-to-es7-react-js-snippets-2022)
 
 ## Supported languages (file extensions)
 
@@ -21,6 +20,8 @@ Here is direct link to marketplace [React/Redux/React-Native/JS Snippets](https:
 
 Every space inside `{ }` and `( )` means that this is pushed into next line :)
 `$` represent each step after `tab`.
+
+### NOTA: This version does not add the amount of react nor the discard of react in 2022
 
 ## Basic Methods
 
@@ -53,39 +54,36 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 
 ## React
 
-|      Prefix | Method                                                                              |
-| ----------: | ----------------------------------------------------------------------------------- |
-|      `imr→` | `import React from 'react'`                                                         |
-|     `imrd→` | `import ReactDOM from 'react-dom'`                                                  |
-|     `imrc→` | `import React, { Component } from 'react'`                                          |
-|    `imrcp→` | `import React, { Component } from 'react' & import PropTypes from 'prop-types'`     |
-|    `imrpc→` | `import React, { PureComponent } from 'react'`                                      |
-|   `imrpcp→` | `import React, { PureComponent } from 'react' & import PropTypes from 'prop-types'` |
-|     `imrm→` | `import React, { memo } from 'react'`                                               |
-|    `imrmp→` | `import React, { memo } from 'react' & import PropTypes from 'prop-types'`          |
-|     `impt→` | `import PropTypes from 'prop-types'`                                                |
-|    `redux→` | `import { connect } from 'react-redux'`                                             |
-|   `rconst→` | `constructor(props) with this.state`                                                |
-|    `rconc→` | `constructor(props, context) with this.state`                                       |
-|      `est→` | `this.state = { }`                                                                  |
-|      `cwm→` | `componentWillMount = () => { }` DEPRECATED!!!                                      |
-|      `cdm→` | `componentDidMount = () => { }`                                                     |
-|      `cwr→` | `componentWillReceiveProps = (nextProps) => { }` DEPRECATED!!!                      |
-|      `scu→` | `shouldComponentUpdate = (nextProps, nextState) => { }`                             |
-|     `cwup→` | `componentWillUpdate = (nextProps, nextState) => { }` DEPRECATED!!!                 |
-|     `cdup→` | `componentDidUpdate = (prevProps, prevState) => { }`                                |
-|     `cwun→` | `componentWillUnmount = () => { }`                                                  |
-|    `gdsfp→` | `static getDerivedStateFromProps(nextProps, prevState) { }`                         |
-|     `gsbu→` | `getSnapshotBeforeUpdate = (prevProps, prevState) => { }`                           |
-|      `ren→` | `render() { return( ) }`                                                            |
-|      `sst→` | `this.setState({ })`                                                                |
-|      `ssf→` | `this.setState((state, props) => return { })`                                       |
-|    `props→` | `this.props.propName`                                                               |
-|    `state→` | `this.state.stateName`                                                              |
-| `rcontext→` | `const ${1:contextName} = React.createContext()`                                    |
-|     `cref→` | `this.${1:refName}Ref = React.createRef()`                                          |
-|     `fref→` | `const ref = React.createRef()`                                                     |
-|      `bnd→` | `this.methodName = this.methodName.bind(this)`                                      |
+|      Prefix | Method                                                                       |
+| ----------: | ---------------------------------------------------------------------------- | --- |
+|      `imr→` | `import React from 'react'`                                                  |
+|     `imrd→` | `import ReactDOM from 'react-dom'`                                           |
+|     `imrc→` | `import { Component } from 'react'`                                          |
+|    `imrcp→` | `import { Component } from 'react' & import PropTypes from 'prop-types'`     |
+|    `imrpc→` | `import { PureComponent } from 'react'`                                      |
+|   `imrpcp→` | `import { PureComponent } from 'react' & import PropTypes from 'prop-types'` |
+|     `imrm→` | `import { memo } from 'react'`                                               |
+|    `imrmp→` | `import { memo } from 'react' & import PropTypes from 'prop-types'`          |
+|     `impt→` | `import PropTypes from 'prop-types'`                                         |
+|    `redux→` | `import { connect } from 'react-redux'`                                      |
+|   `rconst→` | `constructor(props) with this.state`                                         |
+|    `rconc→` | `constructor(props, context) with this.state`                                |
+|      `est→` | `this.state = { }`                                                           |     |
+|      `cdm→` | `componentDidMount = () => { }`                                              |     |
+|      `scu→` | `shouldComponentUpdate = (nextProps, nextState) => { }`                      |     |
+|     `cdup→` | `componentDidUpdate = (prevProps, prevState) => { }`                         |
+|     `cwun→` | `componentWillUnmount = () => { }`                                           |
+|    `gdsfp→` | `static getDerivedStateFromProps(nextProps, prevState) { }`                  |
+|     `gsbu→` | `getSnapshotBeforeUpdate = (prevProps, prevState) => { }`                    |
+|      `ren→` | `render() { return( ) }`                                                     |
+|      `sst→` | `this.setState({ })`                                                         |
+|      `ssf→` | `this.setState((state, props) => return { })`                                |
+|    `props→` | `this.props.propName`                                                        |
+|    `state→` | `this.state.stateName`                                                       |
+| `rcontext→` | `const ${1:contextName} = React.createContext()`                             |
+|     `cref→` | `this.${1:refName}Ref = React.createRef()`                                   |
+|     `fref→` | `const ref = React.createRef()`                                              |
+|      `bnd→` | `this.methodName = this.methodName.bind(this)`                               |
 
 ## React Native
 
@@ -169,24 +167,24 @@ export default compose(graphql($1, { name: $2 }))($3)
 ### `rcc`
 
 ```javascript
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 export default class FileName extends Component {
-  render() {
-    return <div>$2</div>
-  }
+	render() {
+		return <div>$2</div>
+	}
 }
 ```
 
 ### `rce`
 
 ```javascript
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 export class FileName extends Component {
-  render() {
-    return <div>$2</div>
-  }
+	render() {
+		return <div>$2</div>
+	}
 }
 
 export default $1
@@ -195,15 +193,15 @@ export default $1
 ### `rcep`
 
 ```javascript
-import React, { Component } from 'react'
+import { Component } from 'react'
 import PropTypes from 'prop-types'
 
 export class FileName extends Component {
-  static propTypes = {}
+	static propTypes = {}
 
-  render() {
-    return <div>$2</div>
-  }
+	render() {
+		return <div>$2</div>
+	}
 }
 
 export default $1
@@ -212,42 +210,42 @@ export default $1
 ### `rpc`
 
 ```javascript
-import React, { PureComponent } from 'react'
+import { PureComponent } from 'react'
 
 export default class FileName extends PureComponent {
-  render() {
-    return <div>$2</div>
-  }
+	render() {
+		return <div>$2</div>
+	}
 }
 ```
 
 ### `rpcp`
 
 ```javascript
-import React, { PureComponent } from 'react'
+import { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 
 export default class FileName extends PureComponent {
-  static propTypes = {}
+	static propTypes = {}
 
-  render() {
-    return <div>$2</div>
-  }
+	render() {
+		return <div>$2</div>
+	}
 }
 ```
 
 ### `rpce`
 
 ```javascript
-import React, { PureComponent } from 'react'
+import { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 
 export class FileName extends PureComponent {
-  static propTypes = {}
+	static propTypes = {}
 
-  render() {
-    return <div>$2</div>
-  }
+	render() {
+		return <div>$2</div>
+	}
 }
 
 export default FileName
@@ -256,17 +254,17 @@ export default FileName
 ### `rccp`
 
 ```javascript
-import React, { Component } from 'react'
+import { Component } from 'react'
 import PropTypes from 'prop-types'
 
 export default class FileName extends Component {
-  static propTypes = {
-    $2: $3,
-  }
+	static propTypes = {
+		$2: $3,
+	}
 
-  render() {
-    return <div>$4</div>
-  }
+	render() {
+		return <div>$4</div>
+	}
 }
 ```
 
@@ -276,7 +274,7 @@ export default class FileName extends Component {
 import PropTypes from 'prop-types'
 
 function $1(props) {
-  return <div>$0</div>
+	return <div>$0</div>
 }
 
 $1.propTypes = {}
@@ -288,7 +286,7 @@ export default $1
 
 ```javascript
 export default function $1() {
-  return <div>$0</div>
+	return <div>$0</div>
 }
 ```
 
@@ -296,7 +294,7 @@ export default function $1() {
 
 ```javascript
 function $1() {
-  return <div>$0</div>
+	return <div>$0</div>
 }
 
 export default $1
@@ -307,8 +305,8 @@ export default $1
 ```javascript
 import PropTypes from 'prop-types'
 
-const $1 = (props) => {
-  return <div>$0</div>
+const $1 = props => {
+	return <div>$0</div>
 }
 
 $1.propTypes = {}
@@ -320,7 +318,7 @@ export default $1
 
 ```javascript
 const $1 = () => {
-  return <div>$0</div>
+	return <div>$0</div>
 }
 
 export default $1
@@ -330,7 +328,7 @@ export default $1
 
 ```javascript
 const $1 = () => {
-  return <div>$0</div>
+	return <div>$0</div>
 }
 
 export default $1
@@ -339,21 +337,21 @@ export default $1
 ### `rmc`
 
 ```javascript
-import React, { memo } from 'react'
+import { memo } from 'react'
 
 export default memo(function $1() {
-  return <div>$0</div>
+	return <div>$0</div>
 })
 ```
 
 ### `rmcp`
 
 ```javascript
-import React, { memo } from 'react'
+import { memo } from 'react'
 import PropTypes from 'prop-types'
 
 const $1 = memo(function $1(props) {
-  return <div>$0</div>
+	return <div>$0</div>
 })
 
 $1.propTypes = {}
@@ -364,21 +362,21 @@ export default $1
 ### `rcredux`
 
 ```javascript
-import React, { Component } from 'react'
+import { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 export class FileName extends Component {
-  static propTypes = {
-    $2: $3,
-  }
+	static propTypes = {
+		$2: $3,
+	}
 
-  render() {
-    return <div>$4</div>
-  }
+	render() {
+		return <div>$4</div>
+	}
 }
 
-const mapStateToProps = (state) => ({})
+const mapStateToProps = state => ({})
 
 const mapDispatchToProps = {}
 
@@ -388,7 +386,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(FileName)
 ### `reduxmap`
 
 ```javascript
-const mapStateToProps = (state) => ({})
+const mapStateToProps = state => ({})
 
 const mapDispatchToProps = {}
 ```
@@ -402,13 +400,13 @@ import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
 export default class FileName extends Component {
-  render() {
-    return (
-      <View>
-        <Text> $2 </Text>
-      </View>
-    )
-  }
+	render() {
+		return (
+			<View>
+				<Text> $2 </Text>
+			</View>
+		)
+	}
 }
 ```
 
@@ -419,13 +417,13 @@ import React, { Component } from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 
 export default class FileName extends Component {
-  render() {
-    return (
-      <View>
-        <Text> $2 </Text>
-      </View>
-    )
-  }
+	render() {
+		return (
+			<View>
+				<Text> $2 </Text>
+			</View>
+		)
+	}
 }
 
 const styles = StyleSheet.create({})
@@ -438,13 +436,13 @@ import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
 export class FileName extends Component {
-  render() {
-    return (
-      <View>
-        <Text> $2 </Text>
-      </View>
-    )
-  }
+	render() {
+		return (
+			<View>
+				<Text> $2 </Text>
+			</View>
+		)
+	}
 }
 
 export default $1
@@ -459,20 +457,20 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 export class FileName extends Component {
-  static propTypes = {
-    $2: $3,
-  }
+	static propTypes = {
+		$2: $3,
+	}
 
-  render() {
-    return (
-      <View>
-        <Text> $2 </Text>
-      </View>
-    )
-  }
+	render() {
+		return (
+			<View>
+				<Text> $2 </Text>
+			</View>
+		)
+	}
 }
 
-const mapStateToProps = (state) => ({})
+const mapStateToProps = state => ({})
 
 const mapDispatchToProps = {}
 
@@ -495,7 +493,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(FileName)
 
 ```javascript
 describe('$1', () => {
-  $2
+	$2
 })
 ```
 
@@ -503,7 +501,7 @@ describe('$1', () => {
 
 ```javascript
 test('should $1', () => {
-  $2
+	$2
 })
 ```
 
@@ -511,7 +509,7 @@ test('should $1', () => {
 
 ```javascript
 it('should $1', () => {
-  $2
+	$2
 })
 ```
 
@@ -633,11 +631,11 @@ export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(
 ```javascript
 import PropTypes from 'prop-types'
 
-export default (WrappedComponent) => {
-  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+export default WrappedComponent => {
+	const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
 
-  hocComponent.propTypes = {}
+	hocComponent.propTypes = {}
 
-  return hocComponent
+	return hocComponent
 }
 ```
