@@ -2,8 +2,8 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/version-short/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
 [![Install](https://vsmarketplacebadge.apphb.com/installs/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/installs/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
-[![Downloads ](https://vsmarketplacebadge.apphb.com/downloads/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/downloads/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
-[![Rating  ](https://vsmarketplacebadge.apphb.com/rating-star/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/rating-star/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/downloads/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)](https://vsmarketplacebadge.apphb.com/rating-star/JorgeAssaf.alternative-to-es7-react-js-snippets-2022.svg)
 
 This extension provides you JavaScript and React/Redux snippets in ES7 with Babel plugin features for [VS Code](https://code.visualstudio.com/)
 
